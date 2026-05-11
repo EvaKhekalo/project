@@ -31,7 +31,7 @@ button:hover{
     color: rgb(255, 255, 255);
 }
 
-@media(max-width:600px) {
+@media(max-width:800px) {
     .cards{
         flex-direction: column;
         height: 1200px;
