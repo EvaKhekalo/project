@@ -31,17 +31,18 @@ button:hover{
     color: rgb(255, 255, 255);
 }
 
-@media(max-width:800px) {
+@media(max-width: 600px) {
     .cards{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         height: 1200px;
-        width: 100%;
-        gap: 20px;
+        width: 80%;
+        gap: 50px;
     }
     .card{
         margin-bottom: 20px;
-        width: 100%;
+        width: 75%;
         text-align: center;
     }
     button{
