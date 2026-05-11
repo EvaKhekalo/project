@@ -33,13 +33,16 @@ button:hover{
 
 @media(max-width:800px) {
     .cards{
+        display: flex;
         flex-direction: column;
         height: 1200px;
+        width: 100%;
+        gap: 20px;
     }
     .card{
         margin-bottom: 20px;
-        width: 100%
-        text-align: center
+        width: 100%;
+        text-align: center;
     }
     button{
         height: 50px;
